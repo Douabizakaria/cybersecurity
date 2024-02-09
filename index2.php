@@ -83,7 +83,7 @@
             </div>
             
             <div class="form-group text-center">
-                <button type="button" class="btn btn-secondary" onclick="resetForm2()">Reset</button>
+                <button type="button" class="btn btn-secondary" onclick="resetForm()">Reset</button>
                 <input type="submit" class="btn btn-primary" value="Register">
             </div>
         </form>

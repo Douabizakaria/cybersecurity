@@ -25,6 +25,13 @@ function resetForm() {
     hideAlert('registrationError');
 }
 
+function resetForm2() {
+    // Reset the current form
+    document.querySelector('form').reset();
+    hideAlert('registrationSuccess');
+    hideAlert('registrationError');
+}
+
 // Function to toggle between login and registration forms
 function toggleForms() {
     var loginForm = document.getElementById('loginForm');
@@ -46,12 +53,4 @@ function toggleForms() {
     });
 }
 
-// Example usage: Assuming you are using AJAX to submit the form
-// You would call these functions based on the AJAX response
-// For example, after a successful login:
-// showAlert('loginSuccess');
 
-// And after a failed login attempt:
-// showAlert('loginError');
-
-// The same pattern applies to the registration form
